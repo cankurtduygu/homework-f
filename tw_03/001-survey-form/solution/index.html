@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="" href="./result.html">
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">NET<span style="color: red;">FLIX</span></h1>
+        <p id="description">Thank you for signing up at Netflix. Tell us more about your self</p>
+
+        <form action="result.html" id="survey-form">
+
+            <div class="box">
+                <label for="name" id="name-label" >Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="box">
+                <label for="age" id="age-label" aria-placeholder="age">Age</label><br>
+                <input type="number" id="age" name="age"min="1" max="100" placeholder="age" required>
+            </div>
+
+            <div class="box">
+                <label for="email" id="email-label">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="enter your Email" required>
+            </div>
+
+            <!--     Dropdown      -->
+
+            <div class="box">
+                <label for="content">Content type</label><br>
+                <select name="content" id="content">
+                    <option value="Series">Series</option>
+                    <option value="Romantik">Romantik</option>
+                    <option value="Creminal">Creminal</option>
+                </select>
+            </div><br>
+
+            <!--   Checkbox   -->
+            
+            <div class="box">
+                <label for="">Movie Type</label><br>
+                <label for="comedy"><input id="comedy" type="checkbox" value="comedy" name="Movie Type">Comedy</label><br>
+                <label for="action"><input id="action" value="action" name="Movie Type">Action</label><br>
+                <label for="romance"><input id="romance" value="romance" name="Movie Type">Romance</label><br>
+            </div><br>
+
+            
+
+            <!--  Radio  -->          
+
+            <div class="box">
+                <label for="">Gender</label><br>
+                <label for=""><input type="radio" value="Male" name="Gender">Male</label><br>
+                <label for=""><input type="radio" value="Female" name="Gender">Female</label><br>
+                <label for=""><input type="radio" value="Other" name="Gender">Other</label><br>
+            </div><br>
+
+            <!--  Textarea  -->
+
+            <div class="box">
+                <label for="textarea">Feed Back</label><br>
+                <textarea name="textarea" id="textarea" placeholder="any comment"></textarea>
+            </div>
+
+            <!--   Button   -->
+            <div class="box">
+                <button id="submit-btn" type="submit">Gönder</button>
+            </div>
+            
+        </form>
+
+    </div>
+    
+</body>
+</html>
