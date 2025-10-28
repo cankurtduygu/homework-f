@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-left ul{
+    list-style-type: none;
+}
+.box{
+    width: 400px;
+    max-width: 100%; 
+}
+
+.box .google-logo{
+    display: block;
+    margin: 0 auto 20px;
+    width: 200px;
+    height: auto;
+
+}
+
+.box .search-box{
+    position: relative;
+    height: 50px;
+    max-width: 400px;
+    background-color: yellow;
+    border-radius: 25px;
+    margin: auto;
+    border: 1px solid black;
+}
+.search-box input{
+    position: absolute;  
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    padding-left: 60px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+.search-box .icon-mic{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: #fff;
+    background: none;
+    height: 25px;
+    width: 25px;
+    object-fit: contain; /* resmin orantısını koru */
+    display: block;  
+}
+
+.search-box .icon-glass{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background-color: #fff;
+    background: none;
+    height: 25px;
+    width: 25px;
+    object-fit: contain; /* resmin orantısını koru */
+    display: block;  
+}
+
+.box .button-container{
+   height: 40px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: center; 
+   gap: 10px;
+}
+
+.btn{
+    background-color: rgb(211, 210, 210);
+    border: 1px solid #dadce0;
+    border-radius: 3px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.language-text{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+.language-text a{
+    color: #1a0dab;
+    text-decoration: none;
+}
+.language-text a:hover{
+    text-decoration: underline;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;;
+}
+
+.nav{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left, .header-right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-decoration: none;
+}
+
+.sign-btn{
+    background-color: rgb(150, 205, 242);
+    border: 1px solid #dadce0;
+    border-radius: 3px;
+    height: 25px;
+    width: 50px;
+}
+
+.header-left a:hover{
+    text-decoration: underline;
+}
