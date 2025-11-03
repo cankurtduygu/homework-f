@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+/**************** header page ******************/
+.header{
+    height: 80px;
+    width: 100vw;
+    background-color: #212A34;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+.header p{
+    color: red;
+    margin-left: 80px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.header-link{
+    margin-right: 80px;
+}
+
+.header-link a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.header-link a:hover{
+    color: red;
+}
+
+/******** main  *********/
+.main{
+    background-color: #212A34;
+}
+
+/*************** home page *************************/
+.home{
+    background-color: #212A34;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-info{
+    text-align: justify;
+    margin-left: 150px;
+}
+
+.paragraf{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.home-info h2,p{
+    color: white;
+}
+
+.home-info h1{
+    color: red;
+}
+
+.home-img{
+    width: 40%;
+    margin-left: 150px;
+}
+
+.img{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+    animation: bounce 3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0% , 100% { transform: translateY(0);}
+    50% { transform: translateY(-50px);}
+}
+
+.social-media{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 40px;
+
+}
+
+.social-media i,a{
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social-media i:hover{
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4); /* kırmızı glow */
+}
+
+.btn-download button{
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: red;
+     box-shadow: 0 0 20px rgba(255, 0, 0, 0.4); /* kırmızı glow */
+    width: 200px;
+    height: 50px;
+    letter-spacing: 5px;
+}
+
+
+/*********************about***********************/
+
+.about{
+    background-color: #2F3948;;
+    width: 100%;
+    height: 100vh;
+}
+
+.about-flex{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.about-info{
+    width: 60%;
+    text-align: justify;
+    margin-top: 50px;
+    color: white;
+}
+
+.about-img{
+    width: 40%;
+    margin-left: 150px;
+}
+
+.img{
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    border-radius: 25px;
+    animation: bounce 3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0% , 100% { transform: translateY(0);}
+    50% { transform: translateY(-50px);}
+}
+
+
+/*************** SKILLS ************************/
+
+.Skills{
+    background-color: #212A34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-baslik{
+    margin-top: 70px;
+}
+
+
+.container-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box{
+    max-height: 290px;
+    max-width: 330px;
+    width: 330px;
+    height: 290px;
+    background-color: #353f4e;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 1.5s ease, box-shadow 0.3s ease;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.4);
+}
+
+
+.box p{
+    font-size: 0.7rem;
+    color: white;
+    text-align: justify;
+    
+}
+
+.box h2{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    
+}
+
+.box-icon{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+/************* Projekt ***************/
+
+.Project{
+    background-color: #2F3948;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+.row-1-img{
+    width: 28%;
+    height: 33%;
+    border-radius: 10px;
+}
+
+.row-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.row-2-img{
+    width: 43.5%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
