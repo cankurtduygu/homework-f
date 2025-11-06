@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.box{
+    background-color: teal;
+    margin: 10px;
+    padding: 40px;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "box1 box2 box3 sidebar"
+    "main main main sidebar"
+    "footer footer footer footer"
+    ;
+}
+
+.header{
+    grid-area: header;
+}
+
+.box1{
+    grid-area: box1;
+}
+
+.box2{
+    grid-area: box2;
+}
+
+.box3{
+    grid-area: box3;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.main{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: footer;
+}
