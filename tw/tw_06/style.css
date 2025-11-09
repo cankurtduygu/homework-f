@@ -19,4 +19,55 @@ background: url('./img/banner.jpeg') no-repeat center center/cover;
     color: white;
 }
 
+.circle2{
+    width: 225px;
+    height: 215px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: aquamarine;
+    border-radius: 10px solid gray;
 
+}
+
+.circle3{
+  background-image: url("https://ca.slack-edge.com/TMPTG1GNP-U013H1B2E6S-af21b1c9a5d2-512");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid rgb(215, 215, 215);
+}
+
+.circle4{
+  background-image: url("https://ca.slack-edge.com/TMPTG1GNP-U02AJCK80E9-b0d6a19d3f8a-512");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid rgb(215, 215, 215);
+}
+
+.circle5{
+  background-image: url("https://ca.slack-edge.com/TMPTG1GNP-U01RQF1QAMD-cc0e1c7eafb3-512");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 10px solid rgb(215, 215, 215);
+}
+
+.circlefa{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+  
+    color: white;
+    background-color: black;
+}
