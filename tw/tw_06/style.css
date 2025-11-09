@@ -1,0 +1,22 @@
+.banner{
+background: url('./img/banner.jpeg') no-repeat center center/cover;
+ min-height: 100vh; 
+ min-width: 100vw;         /* görünür yükseklik */
+  display: flex;             /* ortalama için */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+}
+
+
