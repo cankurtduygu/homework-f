@@ -71,3 +71,8 @@ background: url('./img/banner.jpeg') no-repeat center center/cover;
     color: white;
     background-color: black;
 }
+
+.contact{
+  background-image: url("./img/map.jpeg");
+  background-size: cover;
+}
